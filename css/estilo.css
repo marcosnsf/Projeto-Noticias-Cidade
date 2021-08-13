@@ -22,3 +22,19 @@ body{
     background: url("../img/logo.png");
     text-indent: -3000px;
 }
+.topo ul{
+    margin-top: 30px;
+    background: #b10333;
+    list-style: none;
+    float: left;
+}
+.topo ul li{
+    float: left;
+}
+.topo ul a {
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em
+    ;
+}
