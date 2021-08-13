@@ -43,3 +43,19 @@ body{
 .topo ul .primeiro a{
     background: none;
 }
+.topo ul a:hover{
+    background: white;
+    color: #69001d;
+}
+
+body.home #navegacao a#home,
+body.brasil #navegacao a#brasil,
+body.internacional #navegacao a#internacional,
+body.hoeconomiame #navegacao a#economia,
+body.saude #navegacao a#saude,
+body.ciencia #navegacao a#ciencia,
+body.fotos #navegacao a#fotos{
+    color: #fff;
+    background: #de003e;
+    cursor: text;
+}
