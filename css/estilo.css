@@ -114,7 +114,7 @@ h2{
 }
 .container-rodape{
     clear: both;
-    background: #294c71;
+    background: #4c5661;
     padding: 20px;
 }
 /* Formatação de menu lateral */
@@ -136,6 +136,28 @@ h2{
     background: #f9f9f9 url("../img/marcador.png")no-repeat left center;
     color: #a1a1a1;
     padding-left: 20px;
+}
+
+label{
+    display: block;
+    cursor: pointer;
+}
+input{
+    padding: 5px;
+    width: 125px;
+    font-size: 0.9em;
+    background-color: #fff;
+} 
+input.submit{
+   width: 80px; 
+   color: #fff;
+   margin-top: 4px;
+   background-color: #294c71;
+   border: 2px solid #203c58;
+}
+input.submit:hover{
+background-color: #445e7a;
+cursor: pointer;
 }
 /*  */
 #rodape{
