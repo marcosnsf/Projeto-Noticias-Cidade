@@ -95,7 +95,22 @@ body.fotos #navegacao a#fotos{
     width: 180px;
     float: left;
     margin: 0 0 20px -750px;
-
+}
+.caixa{
+ margin: 10px 0;
+ padding: 5px;
+ background: #f3f3f3 url("../img/fundo-caixa.png");
+}
+h2{
+    font-size: 1.1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+.caixa_conteudo{
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
 }
 .container-rodape{
     clear: both;
