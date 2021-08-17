@@ -67,13 +67,12 @@ body.fotos #navegacao a#fotos{
     width: 270px;
     float: left;
     margin: 0 0 20px 195px;
-    background: blue;
+   
 }
 #tres_colunas #primario{
     width: 270px;
     float: left;
     margin: 0 0 20px 195px;
-    background: blue;
 }
 #duas_colunas #primario{
     width: 555px;
@@ -89,7 +88,7 @@ body.fotos #navegacao a#fotos{
     width: 270px;
     float: left;
     margin: 0 0 20px 15px;
-    background: yellow;
+   
 }
 #lateral{
     width: 180px;
@@ -114,6 +113,24 @@ h2{
 }
 img{
     border: 2px solid #dfdfdf;
+}
+img.imagem-principal{
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
+h3{
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+.destaque h3{
+    background: #b10333;
+    color: #fff;
+}
+.entrevista h3{
+    background: #fff;
+    color: #fff;
 }
 .container-rodape{
     clear: both;
