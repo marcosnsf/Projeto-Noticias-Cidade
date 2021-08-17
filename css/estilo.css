@@ -132,6 +132,30 @@ h3{
     background: #fff;
     color: #fff;
 }
+#lista_noticias li{
+ padding: 2px;
+ border-bottom: 1px solid #ccc;
+ height: 65px;
+}
+#lista_noticias li a img{
+    float: left;
+    margin: 5px;
+}
+#lista_noticias li a {
+    text-decoration: none;
+    font-size: 0.8em;
+
+}
+
+#lista_noticias li a h3  {
+    color: blue;
+    font-size: 0.9em;
+}
+#lista_noticias li a   {
+    
+    font-size: 0.6em;
+}
+
 .container-rodape{
     clear: both;
     background: #4c5661;
