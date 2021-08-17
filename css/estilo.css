@@ -26,7 +26,19 @@ body{
     background: url("../img/logo.png");
     text-indent: -3000px;
 }
+a:link, a:visited{
+    color: #b10333;
+    padding: 4px;
+}
+a:hover{
+    color: #e50040;
+}
 
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
 .topo ul{
     margin-top: 30px;
     background: #b10333;
